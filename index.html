@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Akan </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    
+  <div class="container">
+      <form>
+          <div class="base">
+              <h4><b>Akan name finder</b></h4>
+              
+           
+          
+          <div class="block">
+              <p class="title"> Date </p>
+              <input type="text" name="date" id="date" placeholder="DD" minlength="1" maxlength="2" required>
+          </div>
+          <div class="block">
+            <p class="title"> Month </p>
+            <input type="text" name="month" id="month" placeholder="MM" minlength="2" maxlength="2" required>
+        </div>
+        <div class="block">
+            <p class="title"> Year </p>
+            <input type="text" name="year" id="year" placeholder="YY" minlength="4" maxlength="4" required>
+        </div>
+        <div class="block">
+            <p class="title"> Gender </p>
+            <input type="text" name="year" id="year" placeholder="M/F" minlength="1" maxlength="1" required>
+        </div>
+    </div>
+        <div class="base">
+            <input type="button" name="submit" value="submit" onclick="akin_name()"/>
+        
+        </div>
+     <!--display-->   
+        
+        <div class="akin_name"></div>
+    
+
+      </form>
+
+  </div>  
+
+  <!--Now activate javascript-->
+
+  <script type="text/javascript">
+      function(akin_name){
+          var d1= document.getElementById("date").value
+          var m1= document.getElementById("month").value
+          var y1= document.getElementById("year").value
+    
+    
+      }
+
+  </script>
+
+
+
+</body>
+</html>
